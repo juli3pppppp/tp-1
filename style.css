@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-color: #5956E9;
+    color: #FFFFFF ;
+
+    padding: 15px 30px;
+
+    border-radius: 8px;
+
+    font-weight: 700;
+}
+
+.download-btn {
+    background-color: #5956E9;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    padding: 12px 20px;
+
+    border-radius: 6px;
+
+    font-weight: 600;
+}
+
+.hero {
+    background: linear-gradient(
+        180deg,
+        #7773EA 0%,
+        #5956E9 50%,
+        #2B28B9 100%
+    );
+
+    padding: 120px 20px 60px;
+}
+
+.hero-card {
+    background: #FFFFFF;
+
+    border: 10px solid #5956E9;
+
+    padding: 30px 20px;
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
