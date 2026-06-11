@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -7,6 +6,7 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
+@media (max-width:768px){
 
 .header {
     position: absolute;
@@ -20,27 +20,30 @@ body {
 }
 .recuadro{
     background-color: #FFFFFF;
-    width: 800px;
-    height: 150px;
+    width: 343px;
+    height: 40px;
     
-    position: absolute;
     top: 100px;
     left: 150px;
+    border-radius: 10px;
     
+}
+.cuadrologo{
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 60px;
+    top: 25px;
+    left: 25px;
+    border-radius:10px;
 }
 .logo {
     background-color: #FFFFFF;
-    color: #000000 ;
     background-image: url('imagenes/920de045e7cd76ae6919224d6f9837cb0536846d.png');
     background-repeat: no-repeat;
     width:30%;
     height:60px;
-    padding: 25px 320px;
-
-    border-radius: 8px;
-
-    font-weight: 700;
-    align-content:center; 
+    margin-left:0;
+    margin-right
 }
 
 .download-btn {
@@ -68,17 +71,39 @@ body {
 
 }
 .hero {
+    position:relative;
+    overflow:hidden;
     background: linear-gradient(
         180deg,
         #7773EA 0%,
         #5956E9 50%,
         #2B28B9 100%
     );
-
+    min-height: 100vh;
     padding: 250px 323px 600px;
 
 }
-
+.hero::before {
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:rgba(255,255,255,0.08);
+    border-radius: 50%;
+    bottom: 100%;
+    left: -25%;
+}
+.hero::after {
+    content:"";
+    position:absolute;
+    width:180%;
+    height:200%;
+    background-color:rgba(255,255,255,0.12);
+    border-radius: 50%;
+    bottom: 0;
+    left: -40%;
+    transform: rotate(-8deg);
+}
 .hero-card {
     background: #FFFFFF;
     background-repeat: no-repeat;
@@ -93,10 +118,75 @@ body {
 .phone{
     background-image: url('imagenes/Free\ Ui\ View\ Mobile\ App\ Mockup\ 1.png');
     background-repeat:no-repeat;
-    padding: 250px 323px 600px;;
+    padding: 250px 323px 600px;
 }
 
-@media (max-width:768px){
-    body{background-color:#2B28B9
-        }
+
+.Aboutapp{
+background-color: #FFFFFF;
+width: 1000px;
+height: 900px;
+top: 900px;
+left: 50px;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+.phone2{
+    background-repeat:no-repeat;
+    height: 324px;
+    width: 238px;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.Box1{
+    background-color: #FFFFFF;
+    width: 343px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 20px 30px 50px;
+    border-radius:18px;
+    margin-left:auto;
+    text-align:center;
+    margin-right:auto;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+}
+.checkbox1 {
+  background-color:#9959f6;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  float:left;
+
+}
+.Box2{
+    background-color: #FFFFFF;
+    width: 343px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 20px 30px 50px;
+    border-radius:18px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+}
+.Box3{
+    background-color: #FFFFFF;
+    width: 343px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 20px 30px 50px;
+    border-radius:18px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+
+    
 }
