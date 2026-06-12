@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 @media (max-width:768px){
 
@@ -62,14 +62,15 @@ body {
     margin-right:10px;
     
 }
+
 .store{
-    background-image: url("imagenes/c52d780b7f4ede1720c93645d3ed6099bc5d537d.png");
     background-repeat: no-repeat;
     width: 200px;
     height: 60px;
     margin-top: 20px;
 
 }
+
 .hero {
     position:relative;
     overflow:hidden;
@@ -83,6 +84,7 @@ body {
     padding: 250px 323px 600px;
 
 }
+
 .hero::before {
     content:"";
     position:absolute;
@@ -93,6 +95,7 @@ body {
     bottom: 100%;
     left: -25%;
 }
+
 .hero::after {
     content:"";
     position:absolute;
@@ -104,17 +107,18 @@ body {
     left: -40%;
     transform: rotate(-8deg);
 }
+
 .hero-card {
     background: #FFFFFF;
     background-repeat: no-repeat;
-    
+    height: 323px;
+    width: 323px;
     border: 10px groove #9f9ed4;
-    
     padding: 60px 10px;
     margin-top:100px;
-
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
+
 .phone{
     background-image: url('imagenes/Free\ Ui\ View\ Mobile\ App\ Mockup\ 1.png');
     background-repeat:no-repeat;
@@ -122,15 +126,34 @@ body {
 }
 
 
-.Aboutapp{
-background-color: #FFFFFF;
-width: 1000px;
-height: 900px;
-top: 900px;
-left: 50px;
-text-align:center;
-margin-left:auto;
-margin-right:auto;
+.Aboutapp{background-color: #FFFFFF;
+          width: 343px;
+          height: 900px;
+          top: 900px;
+          left: 50px;
+          text-align:center;
+          margin-left:auto;
+          margin-right:auto;
+          margin-bottom:200px;}
+
+.Aboutapp h2{
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Aboutapp p{
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: 400;
+    color:darkgray;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 }
 .phone2{
     background-repeat:no-repeat;
@@ -151,18 +174,29 @@ margin-right:auto;
     margin-left:auto;
     text-align:center;
     margin-right:auto;
+    /* margin-bottom: auto; */
+    /* margin-top: auto; */
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
 }
+
+.Box1 p{
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: -20px;
+    color:black;
+}
+
 .checkbox1 {
   background-color:#9959f6;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
   border-radius: 100px;
   float:left;
-
+  margin-top: -50px;
 }
+
+
 .Box2{
     background-color: #FFFFFF;
     width: 343px;
@@ -175,6 +209,15 @@ margin-right:auto;
     text-align:center;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
 }
+
+.Box2 p{
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: -50px;
+    color:black;
+}
+
 .Box3{
     background-color: #FFFFFF;
     width: 343px;
@@ -187,6 +230,53 @@ margin-right:auto;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
 }
 
-
-    
+.Box3 p{
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 30px;
+    /* margin-right: 30px; */
+    color:black;
 }
+
+.Appfeatures{
+    background-color:#5956E9;
+    width: 375px;
+    height: 2230px;
+    top: 900px;
+    left: 50px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 50px;
+}
+
+.Appfeatures h1{
+    font-size: 22px;
+    font-weight:300;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#FFFFFF;
+}
+.Appfeatures p{
+    font-size: 12px;
+    font-weight: 200;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#FFFFFF;
+}
+
+.icon1{
+    background-repeat:no-repeat;
+    height: 50px;
+    width: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    filter: invert(100%);
+}
+
+.icon2{
+    background-repeat:no-repeat;
+    height: 50px;
+    width: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    filter: invert(100%) }
