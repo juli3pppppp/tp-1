@@ -157,6 +157,7 @@ main{
     color:#646161;
     position:relative; 
     top:20px;
+    letter-spacing:1px;
     font-weight:1;
     font-stretch:10px;
     
@@ -293,6 +294,7 @@ main{
 .team p{
     width:300px;
     color:gray;
+    letter-spacing:1px;
     margin-top:30px;
     margin-bottom:30px;
 }
@@ -327,11 +329,10 @@ main{
     list-style:none;
     color:black;
     gap:10px;
-    display: flex; 
-    align-items:center;
-    justify-content:center;
-    margin-top:100px;
-    padding-right:40px;
+    display:flex;
+    position:relative;
+    right:20px;
+    top:30px;
 }
 .socialmedia img{
     width: 30px;
@@ -358,18 +359,50 @@ main{
     height:1001px;
     padding:40px 18px 20px;
 }
+.footer h1{
+    margin-bottom:10px;
+}
+.footer p{
+    width:390px;
+    margin-bottom:100px;
+    
+}
 
-
-.footer-section h2{
+.footer h2{
     font-size:20px;
     letter-spacing:1px;
-    margin-bottom:18px;
+    margin-bottom:28px;
 }
 
 .footer-section p{
     color:#000000;
     line-height:1.8;
     font-size:14px;
+}
+.socialmedias{
+    list-style:none;
+    color:#fffbfb;
+    gap:10px;
+    display: flex; 
+    position:relative;
+    top:10px;
+}
+.socialmedias img{
+    width: 30px;
+    height: 30px;
+    border:none;
+    border-radius:unset;
+    position:relative;
+    filter: invert(100%);
+}
+.socialmedias li{
+    padding: 0px 20px;
+    border-right:1px solid #ffffff;
+    display:flex;
+    align-items:center;
+}
+.socialmedias li:last-child{
+    border:none;
 }
 
 
