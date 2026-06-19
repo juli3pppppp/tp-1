@@ -239,6 +239,7 @@ main{
 .Appfeatures{
     background-color:#5956E9;
     height: 2230px;
+    width:375px;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -289,7 +290,6 @@ main{
     align-items:center;
     text-align:center;
     padding-top: 50px;
-    margin-bottom:100px;
 }
 .team p{
     width:300px;
@@ -351,13 +351,24 @@ main{
 .socialmedia li:last-child{
     border:none;
 }
-
+.rectangle{
+    background-color:#ffff;
+    width:100%;
+    max-width:343px;
+    height:100%;
+    max-height:310px;  
+    position:relative;
+    left:px;
+    bottom:-155px;
+    border-radius:10px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+}
 
 .footer{
-    background-color:black;
+    background-color:#232233;
     color:#ffff;
     height:1001px;
-    padding:40px 18px 20px;
+    padding-top:250px;
 }
 .footer h1{
     margin-bottom:10px;
@@ -385,14 +396,13 @@ main{
     gap:10px;
     display: flex; 
     position:relative;
-    top:10px;
+    bottom:30px;
+    right:60px;
+    margin-bottom:10px;
 }
 .socialmedias img{
     width: 30px;
     height: 30px;
-    border:none;
-    border-radius:unset;
-    position:relative;
     filter: invert(100%);
 }
 .socialmedias li{
@@ -406,30 +416,18 @@ main{
 }
 
 
-.Links{
-    list-style:none;
-}
-
-.Links li{
-    margin-bottom:14px;
-}
 
 .Links a{
     text-decoration:none;
     color:white;
     font-size:15px;
-}
-
-.Links a:hover{
-    color:#6c63ff;
-}
-
-.newsletter{
-    margin-top:20px;
     display:flex;
-    background:white;
-    border-radius:4px;
-    overflow:hidden;
+    flex-direction:column;
+}
+
+
+.newsletter h2{
+    margin-top:10px;
 }
 
 .newsletter input{
